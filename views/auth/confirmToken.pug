@@ -1,0 +1,12 @@
+extends ../layout/index
+
+block contenido
+    div.py-10.bg-grayBg
+        h1.text-4xl.my-10.font-extrabold.text-center.text-purple Bienes 
+            span.font-normal.text-black Raices
+        h2.text-center.text-2xl.font-extrabold.text-gray-800= page
+    div
+
+    div(class="bg-white shadow py-8 px-4 rounded-lg max-w-md max-auto")
+
+        p( class= error ? 'bg-red-500' : 'bg-green-500' ).py-2.px-5.rounded-lg.w-full= mensjae
